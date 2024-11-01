@@ -7,7 +7,95 @@
 </head>
 
 <body>
+	<style>
+		.center{
+			text-align:center;
+		}
+		.right{
+			text-align:right;
+		}
+	</style>
 	<!-- the entire body must be written by student -->
+	<table border ="1px" class="middle" id="table-1" width=100% height=100%>
+		<tr>
+			<td class="left">left</td>
+			<td class="center">center</td>
+			<td class="right">right</td>
+			
+		</tr>
+		<tr>
+			<td class="left">left</td>
+			<td class="center">center</td>
+			<td class="right">right</td>
+			
+		</tr><tr>
+			<td class="left">left</td>
+			<td class="center">center</td>
+			<td class="right">right</td>
+			
+		</tr>
+	</table>
+	<table border ="1px" class="middle" id="table-2" width=100% height=100%>
+		<!-- First Row-------------------- -->
+		<tr>
+			<td colspan="6">6</td>
+		</tr>
+		<!-- Second Row-------------------------- -->
+		<tr>
+			<td rowspan="4">4</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+		</tr>
+		<!-- Third Row----------------------- -->
+		<tr>
+			<td>1</td>
+			<td colspan="3" rowspan="2">2,3</td>
+			<td>1</td>
+		</tr>
+		<!-- Fourth Row------------------------ -->
+		<tr>
+			<td>1</td>
+			<td>1</td>
+		
+		</tr>
+		<!-- Fifth Row-------------------------- -->
+		<tr>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			
+		</tr>
+		<!-- Sixth Row-------------------------- -->
+		<tr>
+			<td colspan="6">6</td>
+		</tr>
+
+	</table>
+	<table class="middle" id="table-3" border="1px" width=100% height=100%>
+		<!-- First green row----------------------- -->
+		<tr>
+			<td>
+				1
+			</td>
+		</tr>
+		<!-- image row---------------------------------- -->
+		<tr>
+			<td id="t-image">
+				<img src="">
+			</td>
+		</tr>
+		<!-- last blue row------------------------------- -->
+		<tr>
+			<td>
+				1
+			</td>
+		</tr>
+	</table>
     <script type="text/javascript" src="./script.js">
 </script>
 
